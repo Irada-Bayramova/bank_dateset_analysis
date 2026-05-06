@@ -3,6 +3,23 @@
 This project analyzes a bank transaction dataset using Oracle SQL and Python.  
 The main goal is to explore customer behavior, transaction trends, fraud indicators, risk levels, and financial patterns through SQL queries and visualizations.
 
+## Dataset
+
+The dataset used in this project is a synthetic international banking transaction dataset inspired by Meezan Bank.  
+It contains 15,000+ simulated cross-border transactions with information about transaction amounts, currencies, fees, taxes, processing times, fraud flags, AML indicators, risk scores, and transaction channels.
+
+The dataset was designed for:
+
+- Fraud detection and AML analysis
+- Risk scoring and compliance analysis
+- Cross-border transaction analytics
+- Financial and transaction trend analysis
+- Machine learning experimentation
+
+No real customer data is included in the dataset.
+
+Dataset Source: [Kaggle Dataset](https://www.kaggle.com/datasets/abdullahmeo/meezan-bank-international-transactions-dataset/data)
+
 ## Project Overview
 
 In this project, Oracle SQL was used to query and analyze transaction data, while Python was used for data visualization.  
@@ -64,7 +81,7 @@ It helps detect customers whose total amount depends heavily on one large transa
 
 Below is one of the visualizations created during the analysis:
 
-![Correlation Between Transaction Features](images/correlation_heatmap.png)
+![Correlation Between Transaction Features](images/correlation_between_tr_features.png)
 
 ## Key Insights
 
